@@ -1,0 +1,44 @@
+[
+  {
+    "id": "0",
+    "name": "Metrostav",
+    "logo": "http://placekitten.com/g/500/500",
+    "specialties": ["Excavation", "Plumbing", "Electrical"],
+    "city": "Prague"
+  },
+  {
+    "id": "1",
+    "name": "Stako",
+    "logo": "http://placekitten.com/g/501/501",
+    "specialties": ["Excavation", "Electrical"],
+    "city": "Madrid"
+  },
+  {
+    "id": "2",
+    "name": "Balfour Beatty",
+    "logo": "http://placekitten.com/g/502/502",
+    "specialties": ["Electrical"],
+    "city": "Barcelona"
+  },
+  {
+    "id": "3",
+    "name": "Integral UK",
+    "logo": "http://placekitten.com/g/503/503",
+    "specialties": ["Plumbing", "Electrical"],
+    "city": "London"
+  },
+  {
+    "id": "4",
+    "name": "ESSCI",
+    "logo": "http://placekitten.com/g/504/504",
+    "specialties": ["Excavation"],
+    "city": "Paris"
+  },
+  {
+    "id": "5",
+    "name": "Costain Group",
+    "logo": "http://placekitten.com/g/505/505",
+    "specialties": ["Plumbing"],
+    "city": "New York"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "name": "construction-companies-list",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --no-cache --parallel --continue",
+    "build": "turbo run build",
+    "graph": "turbo run build --graph=dependency-graph.jpg",
+    "types": "turbo run types --continue",
+    "lint": "turbo run lint --continue"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1",
+    "turbo": "latest"
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=14.0.0"
+  },
+  "packageManager": "yarn@1.22.17"
+}

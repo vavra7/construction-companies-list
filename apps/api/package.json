@@ -1,0 +1,29 @@
+{
+  "name": "@construction-companies-list/api",
+  "private": true,
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "concurrently 'tsc --watch' 'NODE_ENV=development nodemon dist/index.js'",
+    "start": "node ./dist NODE_ENV=production",
+    "build": "tsc",
+    "types": "tsc --noEmit",
+    "lint": "eslint 'src/**/*.{js,ts,tsx}'",
+    "codegen": "graphql-codegen --config codegen.js"
+  },
+  "dependencies": {
+    "apollo-server": "^3.6.3",
+    "graphql": "^16.3.0",
+    "reflect-metadata": "^0.1.13",
+    "typedi": "^0.10.0"
+  },
+  "devDependencies": {
+    "@construction-companies-list/eslint": "*",
+    "@construction-companies-list/typescript": "*",
+    "@graphql-codegen/add": "^3.1.1",
+    "@graphql-codegen/cli": "^2.6.2",
+    "@graphql-codegen/typescript": "^2.4.5",
+    "@graphql-codegen/typescript-resolvers": "^2.5.2",
+    "@types/node": "^17.0.0"
+  }
+}

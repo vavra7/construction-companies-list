@@ -1,0 +1,8 @@
+{
+  "name": "@construction-companies-list/typescript",
+  "private": true,
+  "version": "0.0.0",
+  "dependencies": {
+    "typescript": "^4.5.4"
+  }
+}

@@ -1,0 +1,14 @@
+/node_modules
+
+/apps/*/dist
+/apps/*/build
+/apps/*/.turbo
+/apps/*/node_modules
+/apps/*/yarn-error.log
+
+/packages/*/dist
+/packages/*/.turbo
+/packages/*/node_modules
+/packages/*/yarn-error.log
+
+.turbo
